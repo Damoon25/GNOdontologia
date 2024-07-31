@@ -57,24 +57,34 @@
             <div class="container mt-5 paddingTop paddingBottom">
                 <div class="row justify-content-center aling-items-center">
                     <div class="col-md-5 col-sm-12 mb-4">
-                        <div class="card custom-card" style=" height: 23rem !important;">
+                        <div class="card custom-card" style=" height: 26rem !important;">
                             <div class="card-body p-4">
                                 <img src="./public/img/icons/calidad.png" width="20%">
                                 <h3 class="titleSection2" style="color: var(--link) !important;">ODONTOLOGÍA <br> DE CALIDAD</h3>
                                 <p class="subText fw-lighter" style="color: var(--link) !important;">
                                     Trabajamos diariamente enfocándonos en que la atención a nuestros pacientes sea una experiencia placentera.
                                 </p>
+                                <div class="d-flex justify-content-end mt-3">
+                                    <a href="quienesSomos.php" class="btn btn-link">
+                                        <i class="fa-solid fa-circle-plus" style="color: var(--link) !important;"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-5 col-sm-12 mb-4">
-                        <div class="card custom-card" style="height: 23rem !important;">
+                        <div class="card custom-card" style="height: 26rem !important;">
                             <div class="card-body p-4">
                                 <img src="./public/img/icons/profesionales.png" width="20%">
                                 <h3 class="titleSection2" style="color: var(--link) !important;">NUESTROS <br> PROFESIONALES</h3>
                                 <p class="subText fw-lighter" style="color: var(--link) !important;">
                                     Contamos con profesionales especializados en cada campo de la odontología moderna.
                                 </p>
+                                <div class="d-flex justify-content-end mt-3">
+                                    <a href="profesionales.php" class="btn btn-link">
+                                        <i class="fa-solid fa-circle-plus" style="color: var(--link) !important;"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -82,7 +92,54 @@
             </div>
             <div class="container mt-0 mb-4">
                 <div class="col-sm-12 text-center text-md-start">
-                    <h2 class="titleSection paddingBottom">
+                    <h2 class="titleSection mb-5">
+                        NUESTRAS INSTALACIONES
+                    </h2>
+                </div>
+                <div class="col-sm-12 paddingBottom">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 align-self-center">
+                            <P class="subText" style="color: var(--color3) !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Natus, dolorem dignissimos fugit at, maiores exercitationem,
+                                praesentium placeat eum repudiandae architecto labore facere quis nulla.
+                                Veritatis recusandae atque ut molestiae possimus
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Natus, dolorem dignissimos fugit at, maiores exercitationem,
+                                praesentium placeat eum repudiandae architecto labore facere quis nulla.
+                                Veritatis recusandae atque ut molestiae possimus
+                            </P>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./public/img/imgCovers/IMG-CAROUSEL-1.jpg" class="d-block w-100" alt="Imagen 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./public/img/imgCovers/IMG-CAROUSEL-2.jpg" class="d-block w-100" alt="Imagen 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./public/img/imgCovers/IMG-CAROUSEL-3.jpg" class="d-block w-100" alt="Imagen 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./public/img/imgCovers/IMG-CAROUSEL-4.jpg" class="d-block w-100" alt="Imagen 4">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 text-center text-md-start">
+                    <h2 class="titleSection mb-5">
                         TRATAMIENTOS
                     </h2>
                 </div>
@@ -238,18 +295,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+            </div>
+            <div class="portadaContact">
+                <div class="container">
+                    <div class="col-sm-12 text-center text-md-start paddingTop">
+                        <h2 class="titleSection">
+                            SOLICITA UN TURNO
+                        </h2>
                     </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+                    <div class="section col-sm-12 text-center text-md-start justify-content-center justify-content-md-start paddingBottom">
+                        <div class="container containerContact">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 align-self-start paddingTop mt-2">
+                                    <img class="imgContact mb-4 mb-md-0" src="./public/img/imgCovers/IMG-CONTACT.png" alt="Contacto">
+                                </div>
+                                <div class="col-sm-12 col-md-8 align-self-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <form id="contactForm" action="enviar.php" method="post">
+                                                <div class="row">
+                                                    <div class="mb-4 text-start col-md-6">
+                                                        <label for="nombreApellido" class="form-label">Nombre y Apellido</label>
+                                                        <input type="text" class="form-control bottom-border" id="nombreApellido">
+                                                    </div>
+                                                    <div class="mb-4 text-start col-md-6">
+                                                        <label for="fecha" class="form-label">Fecha del Turno</label>
+                                                        <input type="date" class="form-control bottom-border" id="fecha">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="mb-4 text-start col-md-6">
+                                                        <label for="email" class="form-label">Correo Electrónico</label>
+                                                        <input type="email" class="form-control bottom-border" id="email">
+                                                    </div>
+                                                    <div class="mb-4 text-start col-md-6">
+                                                        <label for="telefono" class="form-label">Teléfono</label>
+                                                        <input type="text" class="form-control bottom-border" id="telefono">
+                                                    </div>
+                                                </div>
+                                                <div class="mb-4 text-start col-12">
+                                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                                    <textarea class="form-control bottom-border" id="mensaje" rows="4"></textarea>
+                                                </div>
+                                                <div class="col-sm-12 justify-content-end text-end paddingForm">
+                                                    <button type="submit" class="btn2">ENVIAR</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

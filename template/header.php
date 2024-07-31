@@ -6,13 +6,16 @@
         <div class="d-none d-lg-block ms-auto">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">HOME</a>
+                    <a class="nav-link" style="color: var(--text-link) !Important;" href="index.php">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="acercaDeMi.php">QUIENES SOMOS</a>
+                    <a class="nav-link" style="color: var(--text-link) !Important;" href="profesionales.php">NUESTROS PROFESIONALES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contacto.php">TRATAMIENTOS</a>
+                    <a class="nav-link" style="color: var(--text-link) !Important;" href="tratamientos.php">TRATAMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: var(--text-link) !Important;" href="quienesSomos.php">QUIÉNES SOMOS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link btnTurnos" href="contacto.php">
@@ -42,10 +45,13 @@
                         <a class="nav-link textCanvas" href="index.php">HOME</a>
                     </li>
                     <li class="nav-item animate__animated animate__backInRight animate__delay-1s animate__fast">
-                        <a class="nav-link textCanvas" href="acercaDeMi.php">QUIENES SOMOS</a>
+                        <a class="nav-link textCanvas" href="profesionales.php">NUESTROS PROFESIONALES</a>
                     </li>
                     <li class="nav-item animate__animated animate__backInRight animate__delay-1s animate__fast">
-                        <a class="nav-link textCanvas" href="contacto.php">TRATAMIENTOS</a>
+                        <a class="nav-link textCanvas" href="tratamientos.php">TRATAMIENTOS</a>
+                    </li>
+                    <li class="nav-item animate__animated animate__backInRight animate__delay-1s animate__fast">
+                        <a class="nav-link textCanvas" href="quienesSomos.php">QUIÉNES SOMOS</a>
                     </li>
                     <li class="nav-item animate__animated animate__backInRight animate__delay-1s animate__fast">
                         <a class="nav-link" href="contacto.php">
