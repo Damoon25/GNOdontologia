@@ -818,10 +818,10 @@ a:hover {
 }
 
 .titleSection {
-    font-family: "Cinzel", serif !important;
+    font-family: var(--font-title) !important;
     font-weight: 500;
-    font-size: 35px !important;
-    color: var(--title-color) !important;
+    font-size: 25px !important;
+    color: var(--text-link) !important;
 }
 
 .titleSection2 {
@@ -871,6 +871,26 @@ a:hover {
 
 /* CARD GALLERY */
 
+.card-img-top {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.btn-primary {
+    background-color: var(--color1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-primary i {
+    margin-right: 5px;
+}
+
 .card-title {
     margin-top: 10px !important;
     color: var(--title-color) !important;
@@ -882,7 +902,6 @@ a:hover {
 }
 
 .card-body {
-    background-color: var(--color2) !important;
     padding: 0px !important;
 }
 
@@ -897,14 +916,53 @@ a:hover {
     overflow: hidden;
 }
 
-.imgKnife {
-    height: 30rem !important;
-    width: 30rem !important;
+.custom-card2 {
+    background-color: var(--color2) !important;
+    border: none;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 100px !important;
+    box-shadow: none;
 }
+
+.custom-body2 {
+    border: 12px solid var(--color1) !important;
+    height: 15rem !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-radius: 25px !important;
+    border-bottom-right-radius: 100px !important;
+    position: relative;
+}
+
+
+.custom-card {
+    background-color: var(--color2) !important;
+    height: 23rem !important;
+    border: 15px solid var(--color1) !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-radius: 25px !important;
+    border-bottom-right-radius: 100px !important;
+    position: relative;
+}
+
+.custom-card::before {
+    content: "" !important;
+    position: absolute !important;
+    top: -8px !important;
+    left: -8px !important;
+    right: -8px !important;
+    bottom: -8px !important;
+    border: 8px solid var(--color1) !important;
+    border-radius: 20px !important;
+    pointer-events: none !important;
+}
+
 
 .card-text {
     display: -webkit-box;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -1127,7 +1185,34 @@ input[type="number"]::-webkit-outer-spin-button {
 
 #footer {
     margin-top: 0px !important;
-    background-color: var(--color3) !important;
+    background-color: var(--color2) !important;
+}
+
+.thin-white-line {
+    border: none;
+    border-top: 2px solid var(--text-link) !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    width: 100%;
+    opacity: 1 !important;
+}
+
+.contact-info {
+    color: var(--link) !important;
+}
+
+.contact-info i {
+    font-size: 1.5em !important;
+    margin-right: 10px !important;
+    color: var(--text-link) !important;
+}
+
+.contact-info.phone i {
+    color: var(--text-link) !important;
+}
+
+.contact-info.email i {
+    color: var(--text-link) !important;
 }
 
 #footerAdmin {
@@ -1137,7 +1222,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .textFooter {
     color: var(--text-footer) !important;
-    font-family: "Montserrat", sans-serif !important;
+    font-family: var(--font-text) !important;
     font-size: 14px !important;
     text-decoration: none !important;
 }
@@ -1451,7 +1536,8 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
     #logoFooter {
-        width: 50% !important;
+        margin: 0px !important;
+        width: 65% !important;
     }
 
     .iconKnife {

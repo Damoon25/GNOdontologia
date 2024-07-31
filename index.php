@@ -54,10 +54,10 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-5 paddingTop">
+            <div class="container mt-5 paddingTop paddingBottom">
                 <div class="row justify-content-center aling-items-center">
                     <div class="col-md-5 col-sm-12 mb-4">
-                        <div class="card" style=" height: 23rem !important;">
+                        <div class="card custom-card" style=" height: 23rem !important;">
                             <div class="card-body p-4">
                                 <img src="./public/img/icons/calidad.png" width="20%">
                                 <h3 class="titleSection2" style="color: var(--link) !important;">ODONTOLOGÍA <br> DE CALIDAD</h3>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-md-5 col-sm-12 mb-4">
-                        <div class="card" style=" height: 23rem !important;">
+                        <div class="card custom-card" style="height: 23rem !important;">
                             <div class="card-body p-4">
                                 <img src="./public/img/icons/profesionales.png" width="20%">
                                 <h3 class="titleSection2" style="color: var(--link) !important;">NUESTROS <br> PROFESIONALES</h3>
@@ -77,6 +77,53 @@
                                 </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-0 mb-4">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h2 class="titleSection paddingBottom">
+                        TRATAMIENTOS
+                    </h2>
+                </div>
+                <div class="col-sm-12 paddingBottom">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Blanqueamiento">
+                                <div class="card-body custom-body2 p-4">
+                                    <h5 style="color: var(--link) !important;" class=" text1 text-center text-md-start">Blanqueamiento</h5>
+                                    <div class="col-sm-12 justify-content-end text-end">
+                                        <div class="col-sm-6">
+                                            <a class="nav-link btnTurnos" href="contacto.php">
+                                                VER MAS
+                                                <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <img src="./public/img/imgCovers/blanqueamiento.png">
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <img src="./public/img/imgCovers/blanqueamiento.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0"></div>
                     </div>
                 </div>
             </div>
