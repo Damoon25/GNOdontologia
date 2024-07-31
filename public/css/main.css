@@ -918,22 +918,22 @@ a:hover {
 
 .custom-card2 {
     background-color: var(--color2) !important;
-    border: none;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+    border: none !important;
     border-bottom-right-radius: 100px !important;
-    box-shadow: none;
+    border-bottom-left-radius: 25px !important;
+    box-shadow: none !important;
 }
 
 .custom-body2 {
     border: 12px solid var(--color1) !important;
     height: 15rem !important;
-    border-top: none !important;
-    border-right: none !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
     border-radius: 25px !important;
+    border-top-left-radius: 0px !important;
     border-bottom-right-radius: 100px !important;
-    position: relative;
+    border-bottom-left-radius: 25px !important;
+    position: relative !important;
 }
 
 
@@ -961,25 +961,17 @@ a:hover {
 }
 
 
-.card-text {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-
 .card-title {
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
 
 .card-text {
-    margin-top: 20px !important;
-    color: var(--text-parrafo) !important;
+    color: var(--link) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px !important;
+    font-size: 25px !important;
     font-style: normal !important;
     font-weight: 500 !important;
     line-height: 110% !important;
@@ -1365,10 +1357,6 @@ input[type="number"]::-webkit-outer-spin-button {
 /* MEDIA */
 
 @media (min-width: 280px) {
-
-    .card-text {
-        font-size: 13px !important;
-    }
 
     .parrafoMayuscula {
         font-size: 21px !important;

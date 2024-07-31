@@ -89,26 +89,152 @@
                 <div class="col-sm-12 paddingBottom">
                     <div class="row">
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Blanqueamiento">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
                                 <div class="card-body custom-body2 p-4">
-                                    <h5 style="color: var(--link) !important;" class=" text1 text-center text-md-start">Blanqueamiento</h5>
-                                    <div class="col-sm-12 justify-content-end text-end">
-                                        <div class="col-sm-6">
-                                            <a class="nav-link btnTurnos" href="contacto.php">
-                                                VER MAS
-                                                <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                            </a>
-                                        </div>
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <img src="./public/img/imgCovers/blanqueamiento.png">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <img src="./public/img/imgCovers/blanqueamiento.png">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-0 mt-md-5">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-0 mt-md-5">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="tratamientos.php" class="btn btn-link">
+                                            VER MÁS
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
