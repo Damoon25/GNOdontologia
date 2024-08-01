@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="portadaQuienesSomos position-relative">
+        <div class="portadaProfesionales position-relative">
             <?php include("template/header.php") ?>
             <div class="container">
                 <div class="row">
@@ -51,23 +51,34 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="col-sm-12 paddingBottom paddingTop">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 align-self-center">
-                        <P class="subText" style="color: var(--color3) !important;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Natus, dolorem dignissimos fugit at, maiores exercitationem,
-                            praesentium placeat eum repudiandae architecto labore facere quis nulla.
-                            Veritatis recusandae atque ut molestiae possimus
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Natus, dolorem dignissimos fugit at, maiores exercitationem,
-                            praesentium placeat eum repudiandae architecto labore facere quis nulla.
-                            Veritatis recusandae atque ut molestiae possimus
-                        </P>
+        <div class="container mt-4">
+            <div class="col-sm-12">
+                <div class="row paddingTop paddingBottom">
+                    <div id="image1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0 mb-3 mb-md-0">
+                        <img class="imgProfesional" src="./public/img/imgCovers/IMG-PROFESIONAL-2.jpg" alt="Imagen 1">
                     </div>
-                    <div class="col-sm-12 col-md-6">
-                        <img class="imgQuienesSomos" src="./public/img/imgCovers/IMG-COVER-QUIENESSOMOS.jpg" alt="Quienes somos">
+                    <div id="text1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0">
+                        <div class="text-center">
+                            <p class="textProfesional" style="color: var(--color3) !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
+                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
+                                Provident, necessitatibus ratione!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row paddingTop paddingBottom">
+                    <div id="image2" class="col-12 col-md-6 order-md-2 d-flex justify-content-center align-items-center p-0 m-0 mb-3 mb-md-0">
+                        <img class="imgProfesional" src="./public/img/imgCovers/IMG-PROFESIONAL-1.jpg" alt="Imagen 1">
+                    </div>
+                    <div id="text2" class="col-12 col-md-6 order-md-1 d-flex justify-content-center align-items-center p-0 m-0">
+                        <div class="text-center">
+                            <p class="textProfesional" style="color: var(--color3) !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
+                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
+                                Provident, necessitatibus ratione!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,7 +104,7 @@
                                         deleniti quia quibusdam veniam quod at voluptatum tenetur ratione voluptatem.
                                         Quisquam assumenda vel dolorum optio.
                                     </p>
-                                    <div class="col-sm-12 justify-content-end text-end paddingForm">
+                                    <div class="col-sm-12 justify-content-end text-end paddingForm mb-3">
                                         <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
                                             <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
                                         </button>
@@ -109,43 +120,58 @@
     <footer>
         <?php include("template/footer.php") ?>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script>
-        const text = "GN Odontología ";
-        const speed = 150; // Velocidad de escritura en milisegundos
-        const pauseTime = 1500; // Tiempo de pausa en milisegundos después de completar el texto
-
-        let i = 0;
-        let reverse = false; // Variable para controlar si se está escribiendo o borrando
-
-        function typeWriter() {
-            if (!reverse && i < text.length) {
-                document.getElementById("typedText").innerHTML += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-            } else {
-                setTimeout(resetText, pauseTime);
-            }
-        }
-
-        function resetText() {
-            if (!reverse) {
-                reverse = true;
-                setTimeout(typeWriter, speed);
-            } else {
-                if (i > 0) {
-                    document.getElementById("typedText").innerHTML = text.substring(0, i - 1);
-                    i--;
-                    setTimeout(resetText, speed);
-                } else {
-                    reverse = false;
-                    setTimeout(typeWriter, speed);
+        document.addEventListener('DOMContentLoaded', function() {
+            // Definir los pares de imagen y texto
+            const imageTextPairs = [{
+                    image: '#image1 img',
+                    text: '#text1 .subText'
+                },
+                {
+                    image: '#image2 img',
+                    text: '#text2 .subText'
                 }
-            }
-        }
+            ];
 
-        window.onload = function() {
-            typeWriter();
-        };
+            function animateText(textElement) {
+                anime({
+                    targets: textElement,
+                    opacity: [0, 1],
+                    scale: [0.8, 1], // Efecto de escala para un pequeño "pop"
+                    translateY: [10, 0], // Desplazamiento para hacer el texto "subir"
+                    duration: 300, // Duración corta
+                    easing: 'easeOutCubic', // Easing suave
+                });
+            }
+
+            // Aplicar animaciones solo en desktop
+            if (window.innerWidth >= 768) {
+                imageTextPairs.forEach(pair => {
+                    const image = document.querySelector(pair.image);
+                    const text = document.querySelector(pair.text);
+
+                    if (image && text) { // Verificar si los elementos existen
+                        image.addEventListener('mouseover', () => {
+                            animateText(text);
+                        });
+
+                        // Mantener el texto visible después de hacer hover
+                        image.addEventListener('mouseleave', () => {
+                            anime({
+                                targets: text,
+                                opacity: 1,
+                                translateY: 0,
+                                duration: 400,
+                                easing: 'easeOutCubic',
+                            });
+                        });
+                    } else {
+                        console.error('Elemento de imagen o texto no encontrado');
+                    }
+                });
+            }
+        });
     </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>

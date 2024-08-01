@@ -317,7 +317,7 @@
                                             deleniti quia quibusdam veniam quod at voluptatum tenetur ratione voluptatem.
                                             Quisquam assumenda vel dolorum optio.
                                         </p>
-                                        <div class="col-sm-12 justify-content-end text-end paddingForm">
+                                        <div class="col-sm-12 justify-content-end text-end mb-3">
                                             <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
                                                 <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
                                             </button>
