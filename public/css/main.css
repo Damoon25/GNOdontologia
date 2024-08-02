@@ -826,7 +826,8 @@ a:hover {
 
 .card-img-top {
   width: 100%;
-  border-bottom: 1px solid #ddd;
+  border-radius: 0px !important;
+  margin: 0px !important;
 }
 
 .card-body {
