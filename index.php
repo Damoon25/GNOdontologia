@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-0 mb-4">
+            <div id="instalaciones" class="container mt-0 mb-4">
                 <div class="col-sm-12 text-center text-md-start">
                     <h2 class="titleSection mb-5">
                         NUESTRAS INSTALACIONES
@@ -143,114 +143,82 @@
                         TRATAMIENTOS
                     </h2>
                 </div>
-                <div class="col-sm-12 paddingBottom">
+                <div class="col-sm-12 paddingBottom ">
                     <div class="row">
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
                                 <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
+                                    <h3 class="card-text text-start">Blanqueamiento</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                         Provident temporibus nisi saepe laudantium sint sequi tempora...
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
+                                        <a href="#" class="btn btn-link open-modal">
                                             <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
                                         </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/ortodoncia4.jpg" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
                                 <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
+                                    <h3 class="card-text text-start">Ortodoncia</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                         Provident temporibus nisi saepe laudantium sint sequi tempora...
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
+                                        <a href="#" class="btn btn-link open-modal">
                                             <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
                                         </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/blanqueamiento2.jpg" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
                                 <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
+                                    <h3 class="card-text text-start">Implantes</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                         Provident temporibus nisi saepe laudantium sint sequi tempora...
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
+                                        <a href="#" class="btn btn-link open-modal">
                                             <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
                                         </a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-0 mt-md-5">
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
                                     </div>
                                 </div>
                             </div>
@@ -259,36 +227,132 @@
                     <div class="row mt-0 mt-md-5">
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
                                 <div class="card-body custom-body2 p-4">
                                     <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                         Provident temporibus nisi saepe laudantium sint sequi tempora...
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
+                                        <a href="#" class="btn btn-link open-modal">
                                             <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
                                         </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
                                 <div class="card-body custom-body2 p-4">
                                     <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText" style="color: var(--link) !important;">
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                                         Provident temporibus nisi saepe laudantium sint sequi tempora...
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
-                                        <a href="tratamientos.php" class="btn btn-link">
-                                            VER MÁS
+                                        <a href="#" class="btn btn-link open-modal">
                                             <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
                                         </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-0 mt-md-5">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
+                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
+                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
+                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
                                     </div>
                                 </div>
                             </div>
@@ -318,9 +382,11 @@
                                             Quisquam assumenda vel dolorum optio.
                                         </p>
                                         <div class="col-sm-12 justify-content-end text-end mb-3">
-                                            <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
-                                                <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
-                                            </button>
+                                            <a href="https://wa.me/1234567890" target="_blank">
+                                                <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
+                                                    <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
+                                                </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -334,43 +400,80 @@
     <footer>
         <?php include("template/footer.php") ?>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script>
-        const text = "GN Odontología ";
-        const speed = 150; // Velocidad de escritura en milisegundos
-        const pauseTime = 1500; // Tiempo de pausa en milisegundos después de completar el texto
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.custom-card2');
 
-        let i = 0;
-        let reverse = false; // Variable para controlar si se está escribiendo o borrando
+            cards.forEach(card => {
+                card.addEventListener('mouseover', () => {
+                    anime({
+                        targets: card,
+                        scale: 1.05, // Escala ligeramente la tarjeta
+                        boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)', // Aumenta la sombra
+                        duration: 300, // Duración de la animación
+                        easing: 'easeOutCubic'
+                    });
+                });
 
-        function typeWriter() {
-            if (!reverse && i < text.length) {
-                document.getElementById("typedText").innerHTML += text.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-            } else {
-                setTimeout(resetText, pauseTime);
-            }
-        }
+                card.addEventListener('mouseleave', () => {
+                    anime({
+                        targets: card,
+                        scale: 1, // Vuelve al tamaño original
+                        boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', // Sombra inicial
+                        duration: 300,
+                        easing: 'easeOutCubic'
+                    });
+                });
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.custom-card2 .open-modal');
 
-        function resetText() {
-            if (!reverse) {
-                reverse = true;
-                setTimeout(typeWriter, speed);
-            } else {
-                if (i > 0) {
-                    document.getElementById("typedText").innerHTML = text.substring(0, i - 1);
-                    i--;
-                    setTimeout(resetText, speed);
-                } else {
-                    reverse = false;
-                    setTimeout(typeWriter, speed);
-                }
-            }
-        }
+            buttons.forEach(button => {
+                button.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevenir la acción predeterminada del enlace
 
-        window.onload = function() {
-            typeWriter();
-        };
+                    // Encuentra la tarjeta correspondiente al botón clicado
+                    const card = this.closest('.custom-card2');
+
+                    // Extrae los datos de la tarjeta
+                    const title = card.querySelector('h3').innerText;
+                    const fullText = card.querySelector('.full-text').innerText;
+                    const imageSrc = card.querySelector('.card-img-top').src;
+
+                    // Muestra el modal con SweetAlert2
+                    Swal.fire({
+                        title: `<h3 class="titleModal" style="color: var(--link);">${title}</h3>`,
+                        html: `<img src="${imageSrc}" alt="${title}" style="max-width: 100%; margin-bottom: 15px; border-radius: 10px;">
+                       <p class="minText text-start" style="color: var(--link) !important;">${fullText}</p>`,
+                        background: 'var(--color2)',
+                        showCloseButton: true,
+                        showCancelButton: false,
+                        focusConfirm: true,
+                        confirmButtonText: 'Cerrar',
+                        customClass: {
+                            popup: 'custom-modal',
+                            confirmButton: 'custom-modal-button'
+                        },
+                        backdrop: `
+                                rgba(0, 0, 0, 0.6)
+                                left top
+                                no-repeat
+                    `,
+                        showClass: {
+                            popup: 'animate__animated animate__fadeInDown'
+                        },
+                        hideClass: {
+                            popup: 'animate__animated animate__fadeOutUp'
+                        }
+                    });
+                });
+            });
+        });
     </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>

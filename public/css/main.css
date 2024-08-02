@@ -213,7 +213,7 @@ table {
   border-spacing: 0;
 }
 
-table > tbody > tr > td {
+table>tbody>tr>td {
   vertical-align: middle !important;
 }
 
@@ -702,65 +702,58 @@ a:hover {
 }
 
 .imgProfesional {
-    width: 80% !important; /* Ajusta el ancho de la imagen */
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra inicial */
-    max-width: 100% !important; /* Asegura que la imagen no desborde su contenedor */
-    height: auto;
-    position: relative; /* Necesario para el pseudo-elemento */
-    border: 0; /* Sin borde inicial */
-    transition: transform 1s ease, box-shadow 0.3s ease; /* Añade transición suave */
-  }
-  
-  .imgProfesional::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border-radius: 50%;
-    border: 5px solid var(--link); /* Borde blanco externo */
-    box-shadow: 0 0 0 5px var(--color2); /* Borde interno con color --color2 */
-    transition: all 0.3s ease; /* Transición para todos los cambios */
-    z-index: 1; /* Asegúrate de que esté encima de la imagen */
-    pointer-events: none; /* Asegúrate de que el pseudo-elemento no interfiera con los eventos del cursor */
-    opacity: 0; /* Oculto por defecto */
-  }
-  
-  .imgProfesional:hover::before {
-    opacity: 1; /* Mostrar el borde al pasar el cursor */
-  }
-  
-  .imgProfesional:hover {
-    transform: scale(1.05); /* Escala la imagen al pasar el cursor */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Aumenta la sombra para un efecto más prominente */
-  }
-  
+  width: 80% !important;
+  /* Ajusta el ancho de la imagen */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  /* Sombra inicial */
+  max-width: 100% !important;
+  /* Asegura que la imagen no desborde su contenedor */
+  height: auto;
+  position: relative;
+  /* Necesario para el pseudo-elemento */
+  border: 0;
+  /* Sin borde inicial */
+  transition: transform 1s ease, box-shadow 0.3s ease;
+  /* Añade transición suave */
+}
+
+
+.imgProfesional:hover {
+  transform: scale(1.05);
+  /* Escala la imagen al pasar el cursor */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  border: 8px solid var(--color2) !important;
+  /* Aumenta la sombra para un efecto más prominente */
+}
+
 
 /* CSS para el texto y la imagen */
 @media (min-width: 768px) {
-    .textProfesional {
-        opacity: 0;
-        transform: translateY(10px); /* Ajusta el desplazamiento */
-        transition: opacity 0.5s ease, transform 0.5s ease; /* Duración de la transición */
-    }
+  .text-div-slide {
+    opacity: 0;
+    transform: translateY(10px);
+    /* Ajusta el desplazamiento */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Duración de la transición */
+  }
 
-    .imgProfesional {
-        transition: transform 0.5s ease;
-    }
+  .imgProfesional {
+    transition: transform 0.5s ease;
+  }
 }
 
 @media (max-width: 767px) {
-    .textProfesional {
-        opacity: 1;
-        transform: none;
-    }
+  .text-div-slide {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 
-.textProfesional {
-  max-width: 100% !important; /* Asegura que el texto no desborde su contenedor */
+.text-div-slide {
+  max-width: 100% !important;
+  /* Asegura que el texto no desborde su contenedor */
 }
 
 .divTextHome {
@@ -877,23 +870,89 @@ a:hover {
 }
 
 .custom-card2 {
-  background-color: var(--color2) !important;
   border: none !important;
   border-bottom-right-radius: 100px !important;
-  border-bottom-left-radius: 25px !important;
-  box-shadow: none !important;
+  border-bottom-left-radius: 0px !important;
+  background-color: transparent !important;
+}
+
+.titleModal {
+  font-family: var(--font-title) !important;
+  font-weight: 500;
+  font-size: 30px !important;
+  color: var(--link) !important;
+}
+
+.fixed-dimensions {
+  width: 100%;
+  /* Ajusta al ancho del contenedor o define un valor fijo */
+  height: 280px;
+  /* Ajusta a la altura deseada */
+  object-fit: cover;
+  /* Mantiene la proporción de la imagen y la recorta si es necesario */
+  border-radius: 10px;
+  /* Opcional: redondea los bordes de la imagen */
 }
 
 .custom-body2 {
+  background-color: var(--color2) !important;
   border: 12px solid var(--color1) !important;
   height: 15rem !important;
   border-top: 0px !important;
   border-right: 0px !important;
   border-radius: 25px !important;
+  border-top-right-radius: 0px !important;
   border-top-left-radius: 0px !important;
   border-bottom-right-radius: 100px !important;
-  border-bottom-left-radius: 25px !important;
+  border-bottom-left-radius: 0px !important;
   position: relative !important;
+}
+
+.truncated-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.custom-modal {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--color2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: inherit;
+  /* Usa la misma fuente que el resto de tu página */
+}
+
+.custom-modal img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-modal-button {
+  background-color: var(--color1) !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: flex;
+  padding: 6px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px !important;
+  border: 1px solid var(--color1) !important;
+  color: var(--link) !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease !important;
+}
+
+.custom-modal-button:hover {
+  background-color: var(--link) !important;
+  color: var(--color2) !important;
+  /* Usa una versión más oscura de --link si la tienes definida */
 }
 
 .custom-card {
@@ -1058,13 +1117,13 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .textProfesional {
-    color: var(--text-parrafo) !important;
-    font-family: "Raleway", sans-serif;
-    font-size: 22px !important;
-    font-style: normal !important;
-    font-weight: 500;
-    line-height: 120%;
-  }
+  color: var(--text-parrafo) !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 500;
+  line-height: 120%;
+}
 
 .subTextWhite {
   color: var(--link) !important;

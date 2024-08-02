@@ -15,12 +15,7 @@
                         <hr class="thin-white-line px-2">
                         <div class="row">
                             <div class="col-12 contact-info phone mb-3">
-                                <i class="fab fa-whatsapp"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">12 3456-7890</a>
-                            </div>
-                            <div class="col-12 contact-info email">
-                                <i class="fas fa-envelope"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">consultas@GNodontologia.com</a>
+                                <a href="https://wa.me/1234567890" class="minText" style="color: var(--text-link) !important;"><i class="fab fa-whatsapp pe-1"></i>12 3456-7890</a>
                             </div>
                         </div>
                     </div>
@@ -30,25 +25,21 @@
                         </h3>
                         <hr class="thin-white-line px-2">
                         <div class="row">
-                            <div class="col-12 contact-info phone mb-3">
+                            <div class="col-12 contact-info phone">
                                 <i class="fa-solid fa-caret-right" style="color: var(--text-link) !important;"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">Quiénes Somos</a>
+                                <a href="quienesSomos.php" class="minText" style="color: var(--text-link) !important;">Quiénes Somos</a>
                             </div>
                             <div class="col-12 contact-info email">
                                 <i class="fa-solid fa-caret-right" style="color: var(--text-link) !important;"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">Nuestro Consultorio</a>
+                                <a href="profesionales.php" class="minText" style="color: var(--text-link) !important;">Nuestros Profesionales</a>
                             </div>
                             <div class="col-12 contact-info email">
                                 <i class="fa-solid fa-caret-right" style="color: var(--text-link) !important;"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">Ortodoncia</a>
+                                <a href="#instalaciones" class="minText" style="color: var(--text-link) !important;">Nuestras Instalaciones</a>
                             </div>
                             <div class="col-12 contact-info email">
                                 <i class="fa-solid fa-caret-right" style="color: var(--text-link) !important;"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">Implantes</a>
-                            </div>
-                            <div class="col-12 contact-info email">
-                                <i class="fa-solid fa-caret-right" style="color: var(--text-link) !important;"></i>
-                                <a href="" class="minText" style="color: var(--text-link) !important;">Blanqueamiento</a>
+                                <a href="tratamientos.php" class="minText" style="color: var(--text-link) !important;">Tratamientos</a>
                             </div>
                         </div>
                     </div>

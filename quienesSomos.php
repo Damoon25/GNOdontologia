@@ -100,9 +100,11 @@
                                         Quisquam assumenda vel dolorum optio.
                                     </p>
                                     <div class="col-sm-12 justify-content-end text-end mb-3">
-                                        <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
-                                            <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
-                                        </button>
+                                        <a href="https://wa.me/1234567890" target="_blank">
+                                            <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
+                                                <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

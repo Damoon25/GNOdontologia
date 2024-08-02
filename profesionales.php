@@ -53,13 +53,26 @@
         </div>
         <div class="container mt-4">
             <div class="col-sm-12">
-                <div class="row paddingTop paddingBottom">
+                <div class="row paddingTop mb-4 mb-md-0">
                     <div id="image1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0 mb-3 mb-md-0">
                         <img class="imgProfesional" src="./public/img/imgCovers/IMG-PROFESIONAL-2.jpg" alt="Imagen 1">
                     </div>
                     <div id="text1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0">
-                        <div class="text-center">
+                        <div class="text-start text-div-slide">
+                            <h3 class="text1" style="color: var(--text-link) !important;">
+                                Lorem Ipsum
+                            </h3>
+                            <p class="subText" style="color: var(--text-link) !important;">
+                                Especialidad
+                            </p>
+                            <p class="minText" style="color: var(--text-link) !important;">
+                                Matrícula
+                            </p>
+                            <p></p>
                             <p class="textProfesional" style="color: var(--color3) !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
+                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
+                                Provident, necessitatibus ratione! <br>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
                                 nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
                                 Provident, necessitatibus ratione!
@@ -71,9 +84,22 @@
                     <div id="image2" class="col-12 col-md-6 order-md-2 d-flex justify-content-center align-items-center p-0 m-0 mb-3 mb-md-0">
                         <img class="imgProfesional" src="./public/img/imgCovers/IMG-PROFESIONAL-1.jpg" alt="Imagen 1">
                     </div>
-                    <div id="text2" class="col-12 col-md-6 order-md-1 d-flex justify-content-center align-items-center p-0 m-0">
-                        <div class="text-center">
+                    <div id="text2" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0">
+                        <div class="text-start text-div-slide">
+                            <h3 class="text1" style="color: var(--text-link) !important;">
+                                Lorem Ipsum
+                            </h3>
+                            <p class="subText" style="color: var(--text-link) !important;">
+                                Especialidad
+                            </p>
+                            <p class="minText" style="color: var(--text-link) !important;">
+                                Matrícula
+                            </p>
+                            <p></p>
                             <p class="textProfesional" style="color: var(--color3) !important;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
+                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
+                                Provident, necessitatibus ratione! <br>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
                                 nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
                                 Provident, necessitatibus ratione!
@@ -105,9 +131,11 @@
                                         Quisquam assumenda vel dolorum optio.
                                     </p>
                                     <div class="col-sm-12 justify-content-end text-end paddingForm mb-3">
-                                        <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
-                                            <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
-                                        </button>
+                                        <a href="https://wa.me/1234567890" target="_blank">
+                                            <button type="submit" class="btn2">SOLICITA EL TURNO VIA WHATSAPP
+                                                <i class="ps-1 fab fa-whatsapp" style="color: var(--color2) !important;"></i>
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -126,11 +154,11 @@
             // Definir los pares de imagen y texto
             const imageTextPairs = [{
                     image: '#image1 img',
-                    text: '#text1 .subText'
+                    text: '#text1 .text-div-slide'
                 },
                 {
                     image: '#image2 img',
-                    text: '#text2 .subText'
+                    text: '#text2 .text-div-slide'
                 }
             ];
 
