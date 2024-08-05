@@ -11,24 +11,7 @@
 <body>
 
     <main>
-        <div class="custom-banner mb-1">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-end align-items-center">
-                    <div class="d-flex">
-                        <a href="https://www.facebook.com/tuperfil" target="_blank" class="text-white mx-2">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/tuperfil" target="_blank" class="text-white mx-2">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+1234567890" class="text-white me-1">+123 456 7890</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include("banner.php") ?>
         <div class="portadaQuienesSomos position-relative">
             <?php include("template/header.php") ?>
             <div class="container">
@@ -42,8 +25,7 @@
                                 </h1>
                                 <div class="col-sm-12 d-none d-md-flex col-md-5">
                                     <p class="subText" style="color: var(--text-link) !important;">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Facere optio esse fugit aspernatur, a nesciunt quisquam dolorum laudantium dolore?
+                                        Aquí debajo te contamos nuestra visión y misión...
                                     </p>
                                 </div>
                             </div>
@@ -55,21 +37,18 @@
         <div class="container">
             <div class="col-sm-12 text-center text-md-start paddingTop">
                 <h2 class="titleSection mb-5">
-                    QUIÉNES SOMOS
+                    POR QUÉ ELEGIR GN ODONTOLOGIA?
                 </h2>
             </div>
             <div class="col-sm-12 paddingBottom">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 align-self-center">
                         <P class="subText" style="color: var(--color3) !important;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Natus, dolorem dignissimos fugit at, maiores exercitationem,
-                            praesentium placeat eum repudiandae architecto labore facere quis nulla.
-                            Veritatis recusandae atque ut molestiae possimus
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Natus, dolorem dignissimos fugit at, maiores exercitationem,
-                            praesentium placeat eum repudiandae architecto labore facere quis nulla.
-                            Veritatis recusandae atque ut molestiae possimus
+                            Porque en 2008, abrimos nuestro primer consultorio en la ciudad de La Plata,
+                            con la firme convicción de darte la mejor atención y
+                            las mejores propuestas estéticas para que luzcas tu sonrisa!
+                            Trabajamos día a día en pos de no perder la calidad y confianza lograda con nuestros pacientes,
+                            y brindando todo el profesionalismo que ellos merecen.
                         </P>
                     </div>
                     <div class="col-sm-12 col-md-6">

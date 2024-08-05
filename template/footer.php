@@ -15,7 +15,7 @@
                         <hr class="thin-white-line px-2">
                         <div class="row">
                             <div class="col-12 contact-info phone mb-3">
-                                <a href="https://wa.me/1234567890" class="minText" style="color: var(--text-link) !important;"><i class="fab fa-whatsapp pe-1"></i>12 3456-7890</a>
+                                <a href="https://wa.me/2215777160" target="_blank" class="minText" style="color: var(--text-link) !important;"><i class="fab fa-whatsapp pe-1"></i>221-5777160</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                         <div class="row">
                             <div class="col-12 contact-info phone mb-3">
                                 <i class="fa-solid fa-location-dot" style="color: var(--text-link) !important;"></i>
-                                <a href="https://www.google.com/maps?q=" class="minText m-0" style="color: var(--text-link) !important;">Buenos Aires, Argentina</a>
+                                <a href="https://www.google.com/maps?q=" class="minText m-0" style="color: var(--text-link) !important;">La Plata, Buenos Aires-Argentina</a>
                             </div>
                         </div>
                     </div>
