@@ -14,10 +14,10 @@
                                 </h2>
                             </div>
                             <p class="subText mb-4" style="color: var(--color3) !important;">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Nobis tempora, maiores commodi possimus facere non,
-                                deleniti quia quibusdam veniam quod at voluptatum tenetur ratione voluptatem.
-                                Quisquam assumenda vel dolorum optio.
+                                Contactanos y en forma inmediata, te brindaremos asistencia y
+                                gestionaremos un turno para tu atención
+                                <i class="fab fa-whatsapp pe-1"></i>221-5777160
+                                o a nuestra línea fija <i class="fa-solid fa-phone fs-6" style="color: var(--text-link) !important;"></i>221-4709338
                             </p>
                             <div class="col-sm-12 justify-content-end text-end mb-3">
                                 <a href="https://wa.me/1234567890" target="_blank">

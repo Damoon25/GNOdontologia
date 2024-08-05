@@ -18,7 +18,7 @@
                     <a class="nav-link" style="color: var(--text-link) !Important;" href="quienesSomos.php">QUIÉNES SOMOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btnTurnos" href="https://wa.me/1234567890" target="_blank">
+                    <a class="nav-link btnTurnos" href="https://wa.me/2215777160" target="_blank">
                         TURNOS
                         <i style="color: var(--link) !important;" class="fa-brands fa-whatsapp pe-1"></i>
                     </a>

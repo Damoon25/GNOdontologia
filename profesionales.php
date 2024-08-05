@@ -11,24 +11,7 @@
 <body>
 
     <main>
-        <div class="custom-banner mb-1">
-            <div class="container-fluid">
-                <div class="d-flex justify-content-end align-items-center">
-                    <div class="d-flex">
-                        <a href="https://www.facebook.com/tuperfil" target="_blank" class="text-white mx-2">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://www.instagram.com/tuperfil" target="_blank" class="text-white mx-2">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <i class="fa-solid fa-phone"></i>
-                        <a href="tel:+1234567890" class="text-white me-1">+123 456 7890</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include("banner.php") ?>
         <div class="portadaProfesionales position-relative">
             <?php include("template/header.php") ?>
             <div class="container">
@@ -41,8 +24,8 @@
                                 </h1>
                                 <div class="col-sm-12 d-none d-md-flex col-md-5">
                                     <p class="subText" style="color: var(--text-link) !important;">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Facere optio esse fugit aspernatur, a nesciunt quisquam dolorum laudantium dolore?
+                                        Todo nuestro equipo, tiene más de 20 años de trayectoria,
+                                        trabajando en diversos consultorios e instituciones de salud.
                                     </p>
                                 </div>
                             </div>
@@ -60,22 +43,16 @@
                     <div id="text1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0">
                         <div class="text-start text-div-slide">
                             <h3 class="text1" style="color: var(--text-link) !important;">
-                                Lorem Ipsum
+                                Gladys Nicklin
                             </h3>
                             <p class="subText" style="color: var(--text-link) !important;">
-                                Especialidad
-                            </p>
-                            <p class="minText" style="color: var(--text-link) !important;">
-                                Matrícula
+                                Odontóloga
                             </p>
                             <p></p>
                             <p class="textProfesional" style="color: var(--color3) !important;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
-                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
-                                Provident, necessitatibus ratione! <br>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
-                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
-                                Provident, necessitatibus ratione!
+                                Fundadora de GN Odontología. Especialista en Ortodoncia. Con 22 años de trayectoria que avalan su experiencia,
+                                atiende a sus pacientes y dirige el consultorio de la ciudad de La Plata y
+                                gerencia los consultorios de CABA.
                             </p>
                         </div>
                     </div>
@@ -87,22 +64,15 @@
                     <div id="text2" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0">
                         <div class="text-start text-div-slide">
                             <h3 class="text1" style="color: var(--text-link) !important;">
-                                Lorem Ipsum
+                                Eduardo Miranda
                             </h3>
                             <p class="subText" style="color: var(--text-link) !important;">
-                                Especialidad
-                            </p>
-                            <p class="minText" style="color: var(--text-link) !important;">
-                                Matrícula
+                                Odontólogo
                             </p>
                             <p></p>
                             <p class="textProfesional" style="color: var(--color3) !important;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
-                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
-                                Provident, necessitatibus ratione! <br>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis molestiae blanditiis
-                                nemo error animi facilis eum maiores. Eveniet ad ea quas asperiores id eius neque qui nulla.
-                                Provident, necessitatibus ratione!
+                                Asociado. Especialista en Implantología y Ortodoncia - Con más de 20 años de trayectoria,
+                                maneja fundamentalmente el área de implantes y cirugías.
                             </p>
                         </div>
                     </div>

@@ -12,24 +12,7 @@
 
     <main>
         <div class="home">
-            <div class="custom-banner mb-1">
-                <div class="container-fluid">
-                    <div class="d-flex justify-content-end align-items-center">
-                        <div class="d-flex">
-                            <a href="https://www.facebook.com/tuperfil" target="_blank" class="text-white mx-2">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://www.instagram.com/tuperfil" target="_blank" class="text-white mx-2">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </div>
-                        <div class="d-flex align-items-center">
-                            <i class="fa-solid fa-phone"></i>
-                            <a href="tel:+1234567890" class="text-white me-1">+123 456 7890</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include("banner.php") ?>
             <div class="portadaHome position-relative">
                 <?php include("template/header.php") ?>
                 <div class="container">
@@ -39,7 +22,7 @@
                                 <div class="col-sm-6 col-md-12 mt-3 paddingHome">
                                     <h1 class="text-center text-md-start animate__fadeInLeft animate__animated animate__faster animate__slower textPrincipalHome">
                                         En GN Odontología, <br>
-                                        Cuidamos la sonrisa
+                                        Cuidamos tu sonrisa
                                     </h1>
                                     <div class="col-sm-12 d-none d-md-flex col-md-5">
                                         <p class="subText" style="color: var(--text-link) !important;">
@@ -100,14 +83,10 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6 align-self-center">
                             <P class="subText" style="color: var(--color3) !important;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Natus, dolorem dignissimos fugit at, maiores exercitationem,
-                                praesentium placeat eum repudiandae architecto labore facere quis nulla.
-                                Veritatis recusandae atque ut molestiae possimus
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Natus, dolorem dignissimos fugit at, maiores exercitationem,
-                                praesentium placeat eum repudiandae architecto labore facere quis nulla.
-                                Veritatis recusandae atque ut molestiae possimus
+                                Contamos con un espacio cómodo y luminoso. Nuestro equipamiento es de última generación.
+                                Hacemos que tu visita al consultorio sea lo más placentera posible,
+                                tratando de respetar los turnos y los horarios asignados,
+                                para evitar ansiedades durante la espera.
                             </P>
                         </div>
                         <div class="col-sm-12 col-md-6">
@@ -147,64 +126,118 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Blanqueamiento</h3>
-                                    <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="#" class="btn btn-link open-modal">
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                    <!-- Texto completo escondido para el modal -->
-                                    <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/ortodoncia4.jpg" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Ortodoncia</h3>
-                                    <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="#" class="btn btn-link open-modal">
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                    <!-- Texto completo escondido para el modal -->
-                                    <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento2.jpg" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/implantes.jpg" class="card-img-top fixed-dimensions" alt="Implantes">
                                 <div class="card-body custom-body2 p-4">
                                     <h3 class="card-text text-start">Implantes</h3>
                                     <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                        Con un implante dental conseguimos reponer los dientes perdidos devolviendo la estética y plena funcionalidad
+                                        a la boca del paciente.
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Con un implante dental conseguimos reponer los dientes perdidos devolviendo la estética y plena funcionalidad
+                                        a la boca del paciente.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/ortodoncia4.jpg" class="card-img-top fixed-dimensions" alt="Ortodoncia">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Ortodoncia</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Con el tratamiento de ortodoncia,
+                                        nos encargamos de corregir problemas de tus dientes mal posicionados y la mandíbula.
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Con el tratamiento de ortodoncia,
+                                        nos encargamos de corregir problemas de tus dientes mal posicionados y la mandíbula.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/blanqueamiento2.jpg" class="card-img-top fixed-dimensions" alt="Blanqueamiento">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Blanqueamiento</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Gracias a nuestros tratamientos, podrás ver que tu sonrisa vuelve a ser plena y radiante.
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Gracias a nuestros tratamientos, podrás ver que tu sonrisa vuelve a ser plena y radiante.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-0 mt-md-5">
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/endodoncia.webp" class="card-img-top fixed-dimensions" alt="Endodoncia">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Endodoncia</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Sentís dolor en tu boca? Acercate a GN y juntos encontraremos la solución buscada.
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Sentís dolor en tu boca? Acercate a GN y juntos encontraremos la solución buscada.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/cirugia.jpg" class="card-img-top fixed-dimensions" alt="Cirugía">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Cirugía</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Tuviste un accidente dental? Te dejaste estar y tu pieza dental ya no tiene solución? Consultanos.
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Tuviste un accidente dental? Te dejaste estar y tu pieza dental ya no tiene solución? Consultanos.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/general.jpg" class="card-img-top fixed-dimensions" alt="General">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Odontopediatría</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Necesitás una limpieza, un arreglo estético, una fluoración para tus chicos, o simplemente un control?
+                                        Acercate a GN.
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
                                         <a href="#" class="btn btn-link open-modal">
@@ -227,12 +260,31 @@
                     <div class="row mt-0 mt-md-5">
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/protesis.jpg" class="card-img-top fixed-dimensions" alt="Endodoncia">
                                 <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <h3 class="card-text text-start">Prótesis</h3>
                                     <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                        Las prótesis se destinan a sustituir las partes de la dentadura dañadas o los dientes perdidos por piezas sintéticas
+                                    </p>
+                                    <div class="d-flex justify-content-end mt-3">
+                                        <a href="#" class="btn btn-link open-modal">
+                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
+                                        </a>
+                                    </div>
+                                    <!-- Texto completo escondido para el modal -->
+                                    <div class="full-text" style="display: none;">
+                                        Las prótesis se destinan a sustituir las partes de la dentadura dañadas o los dientes perdidos por piezas sintéticas
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
+                            <div data-aos="zoom-in-right" class="card custom-card2">
+                                <img src="./public/img/imgCovers/limpieza.jpg" class="card-img-top fixed-dimensions" alt="Cirugía">
+                                <div class="card-body custom-body2 p-4">
+                                    <h3 class="card-text text-start">Limpieza Dental</h3>
+                                    <p class="minText truncated-text" style="color: var(--link) !important;">
+                                        Tuviste un accidente dental? Te dejaste estar y tu pieza dental ya no tiene solución? Consultanos.
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
                                         <a href="#" class="btn btn-link open-modal">
@@ -253,12 +305,12 @@
                         </div>
                         <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
                             <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
+                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="General">
                                 <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
+                                    <h3 class="card-text text-start">General</h3>
                                     <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
+                                        Necesitás un arreglo estético, una fluoración para tus chicos, o simplemente un control?
+                                        Acercate a GN.
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
                                         <a href="#" class="btn btn-link open-modal">
@@ -267,92 +319,8 @@
                                     </div>
                                     <!-- Texto completo escondido para el modal -->
                                     <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="#" class="btn btn-link open-modal">
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                    <!-- Texto completo escondido para el modal -->
-                                    <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mt-0 mt-md-5">
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="#" class="btn btn-link open-modal">
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                    <!-- Texto completo escondido para el modal -->
-                                    <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mt-md-0">
-                            <div data-aos="zoom-in-right" class="card custom-card2">
-                                <img src="./public/img/imgCovers/blanqueamiento.png" class="card-img-top fixed-dimensions" alt="Lorem Ipsum">
-                                <div class="card-body custom-body2 p-4">
-                                    <h3 class="card-text text-start">Lorem Ipsum</h3>
-                                    <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora...
-                                    </p>
-                                    <div class="d-flex justify-content-end mt-3">
-                                        <a href="#" class="btn btn-link open-modal">
-                                            <i class="fa-solid fa-circle-plus pe-1" style="color: var(--link) !important;"></i>
-                                        </a>
-                                    </div>
-                                    <!-- Texto completo escondido para el modal -->
-                                    <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                        Necesitás una limpieza, un arreglo estético, una fluoración para tus chicos, o simplemente un control?
+                                        Acercate a GN.
                                     </div>
                                 </div>
                             </div>
@@ -411,25 +379,31 @@
                     const fullText = card.querySelector('.full-text').innerText;
                     const imageSrc = card.querySelector('.card-img-top').src;
 
+                    // Codifica el mensaje personalizado para WhatsApp
+                    const message = encodeURIComponent(`Hola, ¿cómo está? Me gustaría saber más sobre el tratamiento de ${title}`);
+
+                    // Construye la URL de WhatsApp
+                    const whatsappUrl = `https://wa.me/+5492215777160?text=${message}`;
+
                     // Muestra el modal con SweetAlert2
                     Swal.fire({
                         title: `<h3 class="titleModal" style="color: var(--link);">${title}</h3>`,
                         html: `<img src="${imageSrc}" alt="${title}" style="max-width: 100%; margin-bottom: 15px; border-radius: 10px;">
-                       <p class="minText text-start" style="color: var(--link) !important;">${fullText}</p>`,
+                   <p class="minText text-start" style="color: var(--link) !important;">${fullText}</p>`,
                         background: 'var(--color2)',
-                        showCloseButton: true,
+                        showCloseButton: false, // Ocultar el botón de cerrar
                         showCancelButton: false,
-                        focusConfirm: true,
-                        confirmButtonText: 'Cerrar',
+                        focusConfirm: false, // Desactivar el foco automático en el botón de confirmar
+                        confirmButtonText: `<a href="${whatsappUrl}" target="_blank" style="text-decoration:none; color:white;">Comunicarme por Whatsapp</a>`,
                         customClass: {
                             popup: 'custom-modal',
                             confirmButton: 'custom-modal-button'
                         },
                         backdrop: `
-                                rgba(0, 0, 0, 0.6)
-                                left top
-                                no-repeat
-                    `,
+                            rgba(0, 0, 0, 0.6)
+                            left top
+                            no-repeat
+                `,
                         showClass: {
                             popup: 'animate__animated animate__fadeInDown'
                         },
