@@ -236,8 +236,8 @@
                                 <div class="card-body custom-body2 p-4">
                                     <h3 class="card-text text-start">Odontopediatría</h3>
                                     <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Necesitás una limpieza, un arreglo estético, una fluoración para tus chicos, o simplemente un control?
-                                        Acercate a GN.
+                                        La odontopediatría es la rama de la odontología encargada de tratar a los niños.
+                                        Somos especialistas y te asistimos ante cualquier duda al respecto!.
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
                                         <a href="#" class="btn btn-link open-modal">
@@ -246,12 +246,8 @@
                                     </div>
                                     <!-- Texto completo escondido para el modal -->
                                     <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                        La odontopediatría es la rama de la odontología encargada de tratar a los niños.
+                                        Somos especialistas y te asistimos ante cualquier duda al respecto!.
                                     </div>
                                 </div>
                             </div>
@@ -284,7 +280,8 @@
                                 <div class="card-body custom-body2 p-4">
                                     <h3 class="card-text text-start">Limpieza Dental</h3>
                                     <p class="minText truncated-text" style="color: var(--link) !important;">
-                                        Tuviste un accidente dental? Te dejaste estar y tu pieza dental ya no tiene solución? Consultanos.
+                                        La limpieza dental es uno de los tratamientos más demandados y
+                                        sirve principalemente para evitar enfermedades dentales.
                                     </p>
                                     <div class="d-flex justify-content-end mt-3">
                                         <a href="#" class="btn btn-link open-modal">
@@ -293,12 +290,8 @@
                                     </div>
                                     <!-- Texto completo escondido para el modal -->
                                     <div class="full-text" style="display: none;">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                        Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                        voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                        Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                        cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                        La limpieza dental es uno de los tratamientos más demandados y
+                                        sirve principalemente para evitar enfermedades dentales.
                                     </div>
                                 </div>
                             </div>
@@ -391,7 +384,7 @@
                         html: `<img src="${imageSrc}" alt="${title}" style="max-width: 100%; margin-bottom: 15px; border-radius: 10px;">
                    <p class="minText text-start" style="color: var(--link) !important;">${fullText}</p>`,
                         background: 'var(--color2)',
-                        showCloseButton: false, // Ocultar el botón de cerrar
+                        showCloseButton: true, // Ocultar el botón de cerrar
                         showCancelButton: false,
                         focusConfirm: false, // Desactivar el foco automático en el botón de confirmar
                         confirmButtonText: `<a href="${whatsappUrl}" target="_blank" style="text-decoration:none; color:white;">Comunicarme por Whatsapp</a>`,

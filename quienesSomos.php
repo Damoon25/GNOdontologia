@@ -52,7 +52,7 @@
                         </P>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <img class="imgQuienesSomos" src="./public/img/imgCovers/IMG-QUIENESSOMOS.jpg" alt="Quienes somos">
+                        <img class="imgQuienesSomos" src="./public/img/imgCovers/quienesSomos.jpg" alt="Quienes somos">
                     </div>
                 </div>
             </div>
