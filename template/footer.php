@@ -51,7 +51,11 @@
                         <div class="row">
                             <div class="col-12 contact-info phone mb-3">
                                 <i class="fa-solid fa-location-dot" style="color: var(--text-link) !important;"></i>
-                                <a href="https://www.google.com/maps?q=" class="minText m-0" style="color: var(--text-link) !important;">La Plata, Buenos Aires-Argentina</a>
+                                <a href="https://www.google.com/maps/place/GN+Odontolog%C3%ADa/@-34.9256471,-57.9979419,17z/data=!3m1!4b1!4m6!3m5!1s0x95a2e7ed8f2175af:0x6b2f2c958f18e653!8m2!3d-34.9256515!4d-57.995367!16s%2Fg%2F11xl671tj?entry=ttu"
+                                    target="_blank" class="minText m-0 address-text" style="color: var(--text-link) !important;">
+                                    <span class="address-line">Calle 133 #26 entre 32 y 33</span> <br>
+                                    <span class="address-line">La Plata - Buenos Aires</span>
+                                </a>
                             </div>
                         </div>
                     </div>
