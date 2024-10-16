@@ -4,7 +4,7 @@
             <div class="container containerContact">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 align-self-start paddingTop paddingBottom mt-2">
-                        <img class="imgContact mb-4 mb-md-0" src="./public/img/imgCovers/IMG-CONTACT.png" alt="Contacto">
+                        <img class="imgContact mb-4 mb-md-0" src="./public/img/imgCovers/contact.jpg" alt="Contacto">
                     </div>
                     <div class="col-sm-12 col-md-8 d-flex align-items-center">
                         <div class="container">

@@ -148,8 +148,8 @@
                             <div class="card-body custom-body2 p-4">
                                 <h3 class="card-text text-start">Odontopediatría</h3>
                                 <p class="minText truncated-text" style="color: var(--link) !important;">
-                                    Necesitás una limpieza, un arreglo estético, una fluoración para tus chicos, o simplemente un control?
-                                    Acercate a GN.
+                                    La odontopediatría es la rama de la odontología encargada de tratar a los niños.
+                                    Somos especialistas y te asistimos ante cualquier duda al respecto!.
                                 </p>
                                 <div class="d-flex justify-content-end mt-3">
                                     <a href="#" class="btn btn-link open-modal">
@@ -158,12 +158,8 @@
                                 </div>
                                 <!-- Texto completo escondido para el modal -->
                                 <div class="full-text" style="display: none;">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                    voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                    Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                    cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                    La odontopediatría es la rama de la odontología encargada de tratar a los niños.
+                                    Somos especialistas y te asistimos ante cualquier duda al respecto!.
                                 </div>
                             </div>
                         </div>
@@ -196,7 +192,8 @@
                             <div class="card-body custom-body2 p-4">
                                 <h3 class="card-text text-start">Limpieza Dental</h3>
                                 <p class="minText truncated-text" style="color: var(--link) !important;">
-                                    Tuviste un accidente dental? Te dejaste estar y tu pieza dental ya no tiene solución? Consultanos.
+                                    La limpieza dental es uno de los tratamientos más demandados y
+                                    sirve principalemente para evitar enfermedades dentales.
                                 </p>
                                 <div class="d-flex justify-content-end mt-3">
                                     <a href="#" class="btn btn-link open-modal">
@@ -205,12 +202,8 @@
                                 </div>
                                 <!-- Texto completo escondido para el modal -->
                                 <div class="full-text" style="display: none;">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Provident temporibus nisi saepe laudantium sint sequi tempora,
-                                    voluptas maiores exercitationem dignissimos, dolore quam quas autem.
-                                    Eos laboriosam repellat debitis dolorem odio!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Assumenda labore voluptate facere eius? Perferendis facere magni neque officia
-                                    cupiditate iure earum ipsum, incidunt minima facilis vero delectus animi sed dolores.
+                                    La limpieza dental es uno de los tratamientos más demandados y
+                                    sirve principalemente para evitar enfermedades dentales.
                                 </div>
                             </div>
                         </div>
@@ -221,7 +214,7 @@
                             <div class="card-body custom-body2 p-4">
                                 <h3 class="card-text text-start">General</h3>
                                 <p class="minText truncated-text" style="color: var(--link) !important;">
-                                    Necesitás una limpieza, un arreglo estético, una fluoración para tus chicos, o simplemente un control?
+                                    Necesitás un arreglo estético, una fluoración para tus chicos, o simplemente un control?
                                     Acercate a GN.
                                 </p>
                                 <div class="d-flex justify-content-end mt-3">
@@ -239,7 +232,8 @@
                     </div>
                 </div>
             </div>
-            <?php include("contact.php") ?>
+        </div>
+        <?php include("contact.php") ?>
     </main>
     <footer>
         <?php include("template/footer.php") ?>
@@ -273,51 +267,7 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const buttons = document.querySelectorAll('.custom-card2 .open-modal');
-
-            buttons.forEach(button => {
-                button.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevenir la acción predeterminada del enlace
-
-                    // Encuentra la tarjeta correspondiente al botón clicado
-                    const card = this.closest('.custom-card2');
-
-                    // Extrae los datos de la tarjeta
-                    const title = card.querySelector('h3').innerText;
-                    const fullText = card.querySelector('.full-text').innerText;
-                    const imageSrc = card.querySelector('.card-img-top').src;
-
-                    // Muestra el modal con SweetAlert2
-                    Swal.fire({
-                        title: `<h3 class="titleModal" style="color: var(--link);">${title}</h3>`,
-                        html: `<img src="${imageSrc}" alt="${title}" style="max-width: 100%; margin-bottom: 15px; border-radius: 10px;">
-                       <p class="minText text-start" style="color: var(--link) !important;">${fullText}</p>`,
-                        background: 'var(--color2)',
-                        showCloseButton: true,
-                        showCancelButton: false,
-                        focusConfirm: true,
-                        confirmButtonText: 'Cerrar',
-                        customClass: {
-                            popup: 'custom-modal',
-                            confirmButton: 'custom-modal-button'
-                        },
-                        backdrop: `
-                                rgba(0, 0, 0, 0.6)
-                                left top
-                                no-repeat
-                    `,
-                        showClass: {
-                            popup: 'animate__animated animate__fadeInDown'
-                        },
-                        hideClass: {
-                            popup: 'animate__animated animate__fadeOutUp'
-                        }
-                    });
-                });
-            });
-        });
+    <script src="./public/js/main.js">
     </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>

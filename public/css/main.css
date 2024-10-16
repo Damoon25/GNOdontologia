@@ -1202,6 +1202,20 @@ input[type="number"]::-webkit-outer-spin-button {
   background-color: var(--color2) !important;
 }
 
+.contact-info .address-text {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 5px;
+  /* Ajusta este valor para alinear el texto con el icono */
+}
+
+.contact-info .address-line {
+  display: block;
+  margin-left: .5rem;
+  /* Ajusta este valor para alinear la segunda línea con la primera */
+}
+
+
 .thin-white-line {
   border: none;
   border-top: 2px solid var(--text-link) !important;
