@@ -38,7 +38,7 @@
             <div class="col-sm-12">
                 <div class="row paddingTop mb-4 mb-md-0">
                     <div id="image1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0 mb-3 mb-md-0">
-                        <img class="imgProfesional" src="./public/img/imgCovers/IMG-PROFESIONAL-2.jpg" alt="Imagen 1">
+                        <img class="imgProfesional" src="./public/img/imgCovers/profesional-1.jpeg" alt="Imagen 1">
                     </div>
                     <div id="text1" class="col-12 col-md-6 d-flex justify-content-center align-items-center p-0 m-0">
                         <div class="text-start text-div-slide">
